@@ -7,7 +7,7 @@ if [ -z "$ssh_email" ]; then
 fi
 
 # Define the output file
-OUTPUT_FILE="data/ssh.txt"
+OUTPUT_FILE="../data/ssh/ssh.txt"
 KEY_FILE="id_rsa"
 
 # Create the SSH key
